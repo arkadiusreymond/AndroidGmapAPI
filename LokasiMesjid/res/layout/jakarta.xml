@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/sajadah"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="55dp" >
+
+        <Button
+            android:id="@+id/jp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jt"
+            android:layout_centerVertical="true"
+            android:text="Jakarta Pusat"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/js"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jt"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:text="Jakarta Selatan"
+            android:textSize="23dp" />
+
+        <Button
+            android:id="@+id/jt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/js"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="Jakarta Timur"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/jb"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jp"
+            android:layout_below="@+id/jp"
+            android:layout_marginTop="14dp"
+            android:text="Jakarta Barat"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/ju"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jb"
+            android:layout_below="@+id/jb"
+            android:layout_marginTop="14dp"
+            android:text="Jakarta Utara"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

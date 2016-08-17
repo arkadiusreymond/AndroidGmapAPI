@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/sajadah">
+<ScrollView
+     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"          
+     >
+    
+   <LinearLayout 
+       
+       android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+       >
+       <TextView
+           android:id="@+id/rukunnya"
+           android:layout_width="wrap_content"
+           android:visibility="invisible"
+           android:layout_height="wrap_content"
+           android:text="Te" />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+           <ImageView
+               android:id="@+id/niat"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_marginRight="46dp"
+               android:layout_centerInParent="true"
+               android:visibility="invisible"
+               android:layout_centerVertical="true"
+               android:src="@drawable/niat" />
+           <ImageView
+               android:id="@+id/berdirijkmp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:visibility="invisible"
+               android:layout_marginRight="46dp"
+               android:layout_centerInParent="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/berdirijkmmp" />
+           <ImageView
+               android:id="@+id/takbiratul"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="46dp"
+               android:visibility="invisible"
+               android:layout_centerInParent="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/takbiratul" />
+            <ImageView
+               android:id="@+id/alfatinah"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="46dp"
+               android:visibility="invisible"
+               android:layout_centerInParent="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/alfatinah" />
+            <ImageView
+               android:id="@+id/dudukdiantara"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="46dp"
+               android:visibility="invisible"
+               android:layout_centerInParent="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/dudukdiantara" />
+            <ImageView
+               android:id="@+id/tahasyud"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="46dp"
+               android:visibility="invisible"
+               android:layout_centerInParent="true"
+               android:layout_centerVertical="true"
+               android:src="@drawable/tahasyud"
+                />"
+       </RelativeLayout>
+<TextView
+               android:id="@+id/rukunnya2"
+               android:layout_width="wrap_content"
+               android:visibility="invisible"
+               android:layout_height="wrap_content"
+               android:text="asc" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+            
+    
+    <ImageView
+    android:id="@+id/berdirijkmpp"
+    android:layout_width="wrap_content"
+    android:visibility="invisible"
+    android:layout_height="wrap_content"
+    android:src="@drawable/berdirijkmmpp" />
+<ImageView
+    android:id="@+id/tahasyudd"
+    android:layout_width="wrap_content"
+    android:visibility="invisible"
+    android:layout_height="wrap_content"
+    android:src="@drawable/tahasyudd" />
+
+
+
+</RelativeLayout>
+<TextView
+    android:id="@+id/rukunnya3"
+    android:layout_width="wrap_content"
+    android:visibility="invisible"
+    android:layout_height="wrap_content"
+   
+    android:text="TextView" />
+   </LinearLayout>
+</ScrollView>
+    <TextView
+        android:id="@+id/dptrukun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible"
+        android:text="TextView" />
+
+ 
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  android:background="@drawable/back"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="55dp" 
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp">
+
+        <Button
+            android:id="@+id/btn_deknatjakut"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/btn"
+            android:text="Deknat Jakarta Utara"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_deknatjaktim"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatjaksel"
+            android:background="@drawable/btn"
+            android:text="Deknat Jakarta Timur"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_deknatjaksel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatjakut"
+            android:background="@drawable/btn"
+            android:text="Deknat Jakarta Selatan"
+            android:textSize="21dp" />
+
+        <Button
+            android:id="@+id/btn_deknatjakbar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatjaktim"
+            android:background="@drawable/btn"
+            android:text="Deknat Jakarta Barat"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_deknatjakpus"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatjakbar"
+            android:background="@drawable/btn"
+            android:text="Deknat Jakarta Pusat"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_deknatbekasi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatjakpus"
+            android:background="@drawable/btn"
+            android:text="Deknat Bekasi"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn_deknattanggerang"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btn_deknatbekasi"
+            android:background="@drawable/btn"
+            android:text="Deknat Tanggerang"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

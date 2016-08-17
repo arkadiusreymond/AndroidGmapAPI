@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/sajadah">
+
+	<EditText
+	    android:id="@+id/editText1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:ems="10"
+	    android:visibility="invisible"
+	    android:background="#FFFFFF" >
+
+	    <requestFocus />
+	</EditText>
+
+	<ListView
+	    android:layout_marginTop="40dp"
+	    android:id="@android:id/list"
+	    android:layout_marginLeft="65dp"
+	       android:layout_marginRight="69dp"
+	       android:layout_marginBottom="64dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="198dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/editText1"
+	    android:cacheColorHint="#00000000"
+	    android:drawSelectorOnTop="false"
+	    android:paddingLeft="15px"
+	    android:paddingRight="15px"
+	    android:paddingTop="10px"
+	    android:textColor="#FFFFFF" >
+
+	</ListView>
+
+</RelativeLayout>
